@@ -14,6 +14,8 @@ namespace DemoNetCoreMvcPostgreSQL.Models
         [Display(Name = "Romantic Comedy")]
         RomCom,
         Crime,
-        Mystery
+        Mystery,
+        [Display(Name = "Sci-Fi")]
+        SciFi
     }
 }
